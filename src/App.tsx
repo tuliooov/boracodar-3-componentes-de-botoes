@@ -82,8 +82,9 @@ function App() {
       <footer>
         <p>
           &copy; 2023{' '}
-          <a href="https://github.com/tuliooov"> Tuliooov #BoraCodar</a> - Desafio 03 - Run until
-          you fly!
+          <a href="https://github.com/tuliooov"> Tuliooov #BoraCodar</a>
+          <br></br>
+          Desafio 03 - Run until you fly!
         </p>
       </footer>
     </>

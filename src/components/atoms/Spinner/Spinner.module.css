@@ -1,0 +1,17 @@
+@keyframes loading {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.Spinner {
+  color: white;
+  font-size: 1em;
+  animation: loading 1s infinite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

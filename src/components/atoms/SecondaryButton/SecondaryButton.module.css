@@ -1,0 +1,29 @@
+.SecondaryButton {
+  background: var(--secondary-color);
+  border-radius: 24px;
+  padding: 12px 24px 12px 24px;
+  font-family: 'Inter', sans-serif;
+  font-size: 1em;
+  color: white;
+  outline: none;
+  display: flex;
+  gap: .7rem;
+  align-items: center;
+  justify-content: center;
+  border: unset;
+}
+
+.SecondaryButton:hover {
+  background: var(--secondary-color-hover);
+}
+
+.SecondaryButton:focus {
+  border: 2px solid var(--stroke);
+}
+
+.SecondaryButton:disabled {
+  opacity: 56%;
+}
+.SecondaryButton:hover:disabled {
+  background: var(--secondary-color);
+}

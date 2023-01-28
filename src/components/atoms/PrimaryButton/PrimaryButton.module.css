@@ -1,0 +1,29 @@
+.PrimaryButton {
+  background: var(--primary-color);
+  border-radius: 24px;
+  padding: 12px 24px 12px 24px;
+  font-family: 'Inter', sans-serif;
+  font-size: 1em;
+  color: white;
+  outline: none;
+  display: flex;
+  gap: .7rem;
+  align-items: center;
+  justify-content: center;
+  border: unset;
+}
+
+.PrimaryButton:hover {
+  background: var(--primary-color-hover);
+}
+
+.PrimaryButton:focus {
+  border: 2px solid var(--stroke);
+}
+
+.PrimaryButton:disabled {
+  opacity: 56%;
+}
+.PrimaryButton:hover:disabled {
+  background: var(--primary-color);
+}
